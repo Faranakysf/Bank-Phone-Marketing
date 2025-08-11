@@ -9,7 +9,13 @@ Banks face high costs and low response rates (~11%) in telemarketing campaigns f
 ## Data Source
 - Dataset: From UCI Machine Learning Repository - [Bank Marketing](https://archive.ics.uci.edu/ml/datasets/bank+marketing) (included as `Data/bank-additional-full.csv`—41,188 samples, 20 features + binary target 'y').
 - Features: Client (age, job), campaign (contact, duration), economic (emp.var.rate).
-  
+
+  ## How to Run
+- Clone the repo: https://github.com/Faranakysf/Bank-Phone-Marketing
+- Open notebook: jupyter notebook Bank_Marketing.ipynb
+- Image Output: View generated plots in the /image folder
+- Run all cells (dataset in /Data).
+
 ## Methods and Tools
 - **Libraries**: pandas, numpy, scikit-learn (modeling, GridSearchCV, metrics), matplotlib/seaborn (EDA plots), plotly (interactive visuals).
 - **Steps**:
@@ -30,9 +36,4 @@ Banks face high costs and low response rates (~11%) in telemarketing campaigns f
 - DT excels for interpretability/fast tuning; SVM highest AUC but slow. Imbalance limits F1; features like prior success/economic stability key drivers.
 - Insights: Target retirees/students via cellular; A/B test for 30% cost savings.
 
-## How to Run
-- Clone the repo: https://github.com/Faranakysf/Bank-Phone-Marketing
-- Open notebook: jupyter notebook Bank_Marketing.ipynb
-- Image Output: View generated plots in the /image folder
-- Run all cells (dataset in /Data).
 
