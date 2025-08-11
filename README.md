@@ -6,7 +6,6 @@ This repository contains a Jupyter Notebook (`Bank_Marketing.ipynb`) that compar
 ## Business Problem
 Banks face high costs and low response rates (~11%) in telemarketing campaigns for term deposits. The objective is to build predictive models identifying likely subscribers, enabling targeted calls to reduce contacts (e.g., 20-30% fewer) while maintaining successes amid economic challenges like the 2008-2010 crisis. Among the compared models (LR, DT, KNN, SVM), the Decision Tree (DT) proved to be the best overall, offering a balanced F1-score (~0.08 tuned), interpretability through decision rules (e.g., prioritizing prior successes), and fast training (~0.17s), making it ideal for efficient, actionable targeting in campaigns.
 
-**Note book**: Bank_Marketing.ipynb 
 ## Data Source
 - Dataset: From UCI Machine Learning Repository - [Bank Marketing](https://archive.ics.uci.edu/ml/datasets/bank+marketing) (included as `Data/bank-additional-full.csv`—41,188 samples, 20 features + binary target 'y').
 - Features: Client (age, job), campaign (contact, duration), economic (emp.var.rate).
@@ -31,3 +30,6 @@ Banks face high costs and low response rates (~11%) in telemarketing campaigns f
 - DT excels for interpretability/fast tuning; SVM highest AUC but slow. Imbalance limits F1; features like prior success/economic stability key drivers.
 - Insights: Target retirees/students via cellular; A/B test for 30% cost savings.
 
+How to Run
+Open notebook: jupyter notebook Bank_Marketing.ipynb
+Run all cells (dataset in /Data).
