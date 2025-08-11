@@ -33,7 +33,4 @@ Banks face high costs and low response rates (~11%) in telemarketing campaigns f
   | KNN   | {'model_n_neighbors': 3} | 0.1255 | 0.5492 |
   | SVM   | {'model_C': 10, 'model_kernel': 'rbf'} | 0.0333 | 0.5525 |
 
-- DT excels for interpretability/fast tuning; SVM highest AUC but slow. Imbalance limits F1; features like prior success/economic stability key drivers.
-- Insights: Target retirees/students via cellular; A/B test for 30% cost savings.
-
-
+  
