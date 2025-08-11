@@ -9,7 +9,7 @@ Banks face high costs and low response rates (~11%) in telemarketing campaigns f
 ## Data Source
 - Dataset: UCI Machine Learning Repository - [Bank Marketing](https://archive.ics.uci.edu/ml/datasets/bank+marketing) (included as `Data/bank-additional-full.csv`—41,188 samples, 20 features + binary target 'y').
 - Features: Client (age, job), campaign (contact, duration), economic (emp.var.rate).
-
+# Note book: Bank_Marketing.ipynb 
 ## Methods and Tools
 - **Libraries**: pandas, numpy, scikit-learn (modeling, GridSearchCV, metrics), matplotlib/seaborn (EDA plots), plotly (interactive visuals).
 - **Steps**:
