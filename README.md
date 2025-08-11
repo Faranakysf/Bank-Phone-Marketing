@@ -30,6 +30,6 @@ Banks face high costs and low response rates (~11%) in telemarketing campaigns f
 - DT excels for interpretability/fast tuning; SVM highest AUC but slow. Imbalance limits F1; features like prior success/economic stability key drivers.
 - Insights: Target retirees/students via cellular; A/B test for 30% cost savings.
 
-How to Run
+## How to Run
 Open notebook: jupyter notebook Bank_Marketing.ipynb
 Run all cells (dataset in /Data).
