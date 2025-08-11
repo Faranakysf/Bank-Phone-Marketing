@@ -31,5 +31,7 @@ Banks face high costs and low response rates (~11%) in telemarketing campaigns f
 - Insights: Target retirees/students via cellular; A/B test for 30% cost savings.
 
 ## How to Run
-Open notebook: jupyter notebook Bank_Marketing.ipynb
-Run all cells (dataset in /Data).
+- Clone the repo: https://github.com/Faranakysf/Bank-Phone-Marketing
+- Open notebook: jupyter notebook Bank_Marketing.ipynb
+- Run all cells (dataset in /Data).
+
