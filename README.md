@@ -14,7 +14,7 @@ Banks face high costs and low response rates (~11%) in telemarketing campaigns f
 - Clone the repo: https://github.com/Faranakysf/Bank-Phone-Marketing
 - Open notebook: jupyter notebook Bank_Marketing.ipynb
 - Image Output: View generated plots in the /image folder
-- Run all cells (dataset in /Data).
+- Run all cells dataset in: /Data/bank-additional-full.csv
 
 ## Methods and Tools
 - **Libraries**: pandas, numpy, scikit-learn (modeling, GridSearchCV, metrics), matplotlib/seaborn (EDA plots), plotly (interactive visuals).
